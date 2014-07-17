@@ -26,38 +26,38 @@ Partial Class AppGuideDomestic
 
     'Functions to get spark plug images
     Protected Function getSparkImage(ByVal SparkItem As String) As String
-        Dim imageSrc = "<img width='70px' class='sparkimage' src='/images/{0}' />"
+        Dim imageSrc = "<a href='/spark/images/{0}_plug_full.jpg' target='new'><img width='70px' class='sparkimage' src='/spark/images/{0}_plug.jpg' /></a>"
         Dim sparkDigits As String
 
         sparkDigits = SparkItem.Substring(0, 2)
 
         Select Case sparkDigits
             Case "1I"
-                Return (String.Format(imageSrc, "MSD1_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD1"))
             Case "2I"
-                Return (String.Format(imageSrc, "MSD2_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD2"))
             Case "3I"
-                Return (String.Format(imageSrc, "MSD3_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD3"))
             Case "4I"
-                Return (String.Format(imageSrc, "MSD4_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD4"))
             Case "5I"
-                Return (String.Format(imageSrc, "MSD5_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD5"))
             Case "6I"
-                Return (String.Format(imageSrc, "MSD6_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD6"))
             Case "7I"
-                Return (String.Format(imageSrc, "MSD7_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD7"))
             Case "8I"
-                Return (String.Format(imageSrc, "MSD8_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD8"))
             Case "9I"
-                Return (String.Format(imageSrc, "MSD9_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD9"))
             Case "11"
-                Return (String.Format(imageSrc, "MSD11_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD11"))
             Case "13"
-                Return (String.Format(imageSrc, "MSD13_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD13"))
             Case "15"
-                Return (String.Format(imageSrc, "MSD15_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD15"))
             Case "16"
-                Return (String.Format(imageSrc, "MSD16_plug.jpg"))
+                Return (String.Format(imageSrc, "MSD16"))
         End Select
     End Function
 
