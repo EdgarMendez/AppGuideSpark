@@ -24,6 +24,12 @@ Partial Class AppGuideDomestic
 
     End Sub
 
+    'Functions to get spark plug images
+
+
+
+
+
     Protected Function getURL(ByVal partName As String) As String
         If partName.Length = 0 Then
             Return String.Empty
