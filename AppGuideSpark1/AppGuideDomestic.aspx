@@ -80,6 +80,9 @@
 							<div class="headerdiv">
 								<span class="appGuideTitle" >Notes</span>
 							</div>
+                            <div class="headerdiv">
+								<span class="appGuideTitle" ></span>
+							</div>
 						</div>
 					</div>
                 </HeaderTemplate> 
@@ -101,6 +104,9 @@
                             </div>                       
 							<div class="celldiv">
                                 <asp:Literal ID="lit5" Text='<%# DataBinder.Eval(Container.DataItem, "Notes") %>' runat="server" />
+                            </div> 
+                            <div class="celldiv">
+                                <asp:Literal ID="lit6" Text='<%# getSparkImage(DataBinder.Eval(Container.DataItem, "PlugType"))%>' runat="server" />
                             </div> 
                         </div>
                         

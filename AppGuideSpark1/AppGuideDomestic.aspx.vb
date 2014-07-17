@@ -25,7 +25,19 @@ Partial Class AppGuideDomestic
     End Sub
 
     'Functions to get spark plug images
+    Protected Function getSparkImage(ByVal SparkItem As String) As String
+        Dim imageSrc = "<img class='sparkimage' src='/images/{0}' />"
+        Dim sparkDigits As String
 
+        sparkDigits = SparkItem.Substring(0, 2)
+
+        Select Case sparkDigits
+            Case "1I"
+                Return (String.Format(imageSrc, "MSD1_plug.jpg"))
+            Case "2I"
+                Return (String.Format(imageSrc, "MSD2_plug.jpg"))
+        End Select
+    End Function
 
 
 
@@ -71,7 +83,7 @@ Partial Class AppGuideDomestic
 
         Dim sql As String = "SELECT ignition, coil, distributor, wireset, harness, adapter, isusercontributed " & _
                             "FROM Data WHERE (MakeID = @makeid) AND (year = @year) AND (model = @model) AND (engine = engine) order by isusercontributed"
-        
+
         Dim conn As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("ACC_ApplicationGuideConnectionString").ToString())
         Dim cmd As New SqlCommand(sql, conn)
         Dim sqlReader As SqlDataReader
@@ -413,7 +425,7 @@ Partial Class AppGuideDomestic
     '    'Return sb.ToString()
     '    Return ("Count" + legendItems.Count.ToString())
     'End Function
-    
+
     Protected Sub ddMake_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddMake.SelectedIndexChanged
         If ddMake.SelectedIndex = 0 Then
             ddModel.Visible = False
@@ -460,7 +472,7 @@ Partial Class AppGuideDomestic
             lblMake.Visible = True
             lblModel.Visible = False
             lblEngine.Visible = False
-            
+
         End If
     End Sub
 End Class
