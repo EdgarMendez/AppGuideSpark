@@ -1,0 +1,880 @@
+/* MSD Main Template Styles */
+@import url("/styles/special.css");
+@import url("/styles/boxes.css");
+
+/* Body
+-------------------------*/
+body {
+	font: 13px/22px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	min-width:940px;
+	background-color:#ffffff; margin: 0px; padding: 0px; background-image: url(../images/template/carcollage2.jpg); background-repeat:repeat-y;    		    background-position: center top;
+}
+h1 {
+	color: #CC0000;
+	font: bold 17px Tahoma, Arial, Helvetica, sans-serif;
+	margin: 10px 0px 5px;
+}
+h2 {
+	color: #414042;
+	font: bold 16px Tahoma, Arial, Helvetica, sans-serif;
+	margin: 10px 0px 5px;
+}
+h5 {
+	color: #FFFFFF;
+	font: bold 8px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	margin: 5px 0px 5px 0px;
+	background-color: #6A6A6A;
+	background: url(../images/template/bkgd-sidenav10.gif) no-repeat;
+	PADDING-LEFT: 15px;
+	LINE-HEIGHT: 20px;
+	
+}
+.clear {
+	clear: both;
+}
+#container {
+	width: 1000px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	background:#FFFFFF;
+}
+a:link,
+		 
+a:visited {
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+	    	 }
+	 
+a:hover {
+		color: #FF0000;
+	    background-color: transparent;
+	    text-decoration: underline;
+	}
+a:active {color: #333333;
+}
+.rightMain 
+		{
+		    width:230px; 
+		    float:right; 
+		    padding:0px 0px 0px 0px;
+		}
+
+/* Header
+-------------------------*/
+#lvgateway {
+	background: url(../images/LVgateway.gif) no-repeat;
+	height: 55px;
+	text-indent: 10px;
+	white-space: nowrap;
+	width: 100px;
+}
+#headtop {
+	background: #000000 url(../images/TopHeader.gif) no-repeat;
+	height: 41px;
+	width: 1000px;
+	float: left;
+	font: bold 14px Verdana, sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+#headtop a {
+	color: #ffffff;
+	text-decoration: none;
+}
+#headtop a:hover {
+	color: #000000;
+}
+#head {
+	background: #000000 url(../images/template/nohead21.jpg) no-repeat;
+	height: 164px;
+	width: 1000px;
+	float: left;
+}
+#searchBar {
+	width: 295px;
+	list-style-type: none;
+	float: right;
+	position: relative;
+	top: 2px;
+	margin: 0px 10px 0px 0px;
+}
+#searchBar li {
+	float: left;
+	margin: 0px 10px 0px 0px;
+	font-size: 9px;
+}
+#searchBar li a {
+	color: #CCCCCC;
+}
+#searchBar li a:hover {
+	color: #FFFFFF;
+}
+li#dealerLocator {
+	font: bold 9px Tahoma, Verdana, sans-serif;
+	background: url(../images/template/bkgd-dealer.gif) no-repeat;
+	height: 14px;
+	text-indent: 10px;
+	white-space: nowrap;
+	width: 120px;
+}
+li#dealerLocator a {
+	color: #333333;
+	text-decoration: none;
+}
+li#dealerLocator a:hover {
+	color: #CC0000;
+}
+
+/* Main Nav
+-------------------------*/
+#mainNav {
+	/*background: #CC0000 url(../images/template/bkgd-mainNavb.gif) no-repeat;*/
+	height: 35px;
+	width: 1000px;
+	float: left;
+	clear: left;
+}
+#mainNav ul {
+	list-style-type: none;
+	margin: 0 40px 0 0;
+	float: right;
+	text-align: left;
+	padding: 0px;
+}
+#mainNav li {
+	color: #333333;
+	text-align: center;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	font: bold 12px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	height: 25px;
+	background: url(../images/template/red_divider.gif) no-repeat left 8px;
+}
+#mainNav li a {
+	color: #333333;
+	text-decoration: none;
+}
+#mainNav li p {
+	margin: 0px;
+	padding: 9px 14px 0px;
+}
+
+#mainNav li a:hover {
+	color: #3366ff;
+	text-decoration: none;
+}
+
+
+/* Side Nav 
+-------------------------*/
+#sideNav {
+	width: 185px;
+	float: left;
+	clear: left;
+	
+}
+#sideNav ul.links {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+}
+#sideNav .links li {
+	color: #333333;
+	font-size: 11px;
+	font-weight: bold;
+	list-style: none;
+	padding: 10px 10px 10px 25px;
+	background: url(../images/template/bkgd-sidenav1.gif) no-repeat;
+	height: 13px;
+}
+#sideNav .links li a {
+	color: #333333;
+	text-decoration: none;
+}
+#sideNav .links li a:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+#sideNav h6.navTitle {
+	background: url(../images/template/bkgd-sidenav9.gif) no-repeat;
+	font: bold 11px Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 20px;
+	padding-top: 7px;
+	color: #FFFFFF;
+	margin: 0px;
+	height: 18px;
+}
+
+/* feed Block
+-------------------------*/
+
+.feedBlock ul {
+	width: 230px;
+	margin: 0px 0px 0px 10px;
+	padding: 0px;
+	list-style: none;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #666666;
+}
+.feedBlock li {
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 9px;
+	line-height: 12px;
+	list-style: none;
+	margin: 10px 0px;
+}
+.feedBlock td {
+	padding-left: 20px;
+	padding-right: 10px;
+	/*font-size: 9px;*/
+	line-height: 12px;
+	list-style: square;
+	margin: 10px 0px;
+	color: #660000;
+	text-decoration: none;
+}
+.feedBlockForum td {
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 9px;
+	background: url(../images/template/arrow_right.gif) no-repeat 5px 1px;
+	line-height: 12px;
+	list-style: square;
+	margin: 10px 0px;
+	color: #660000;
+	text-decoration: none;
+}
+.feedBlockProducts td {
+	padding-left: 20px;
+	padding-right: 10px;
+	font-size: 9px;
+	background: url(../images/template/dot.gif) no-repeat 5px 1px;
+	line-height: 12px;
+	list-style: square;
+	margin: 10px 0px;
+	color: #660000;
+	text-decoration: none;
+}
+.feedBlock a:hover {
+	color: #CC0000;
+}
+
+/* Content 
+-------------------------*/
+#banner {
+	width: 816px;
+	float: left;
+}	
+.bannerHeader {
+	width: 816px;
+	float: left;
+}
+#content {
+	/*border-right-color: #CCCCCC;
+    border-right-style: solid;
+    border-right-width: 1px;*/
+	width: 810px;
+	float: left;
+	margin:0; padding:0;
+	height: 1%;
+}
+
+/* Product Page 
+----------------------------------------------- */
+#productad{ width:770px; height:100%;
+	}
+#Banner {
+	width:770px; height:100%; min-height:700px;
+	}
+#ProWrapper {
+	width:770px; height:100%; min-height:700px;
+	}
+#ProWrapper h1{
+	font-size:16px;
+	}
+#topheader {
+	width:730px; height:100%; position:relative; margin: 20px 0 0 30px;
+	}
+#TopPrice {
+	width:170px; float:right; margin:0; padding:0; text-align:center;
+	}
+#TopPrice p{font-size:9px; margin:0; padding:0 0 7px 0; text-align:center; line-height:10px;}
+#pricesection {
+	width:170px; height:110px;
+	}
+#pictureArea {
+	width:770px; height:100%; margin:0; text-align:center;
+	}
+#pictureAreaLeft {
+	width:330px; height:100%; text-align:center; margin:20px 0 20px 40px; float:left;
+	}
+#pictureAreaRight {
+	width:310px; height:100%; margin:20px 20px 20px 0; float:right; text-align:left; font-size:11px;
+	}
+#pictureAreaRight h2{
+	color:#990000; font-size:11px;
+}
+#pictureAreaRight ul li {font-size:11px;}
+#pictureAreaRight ul {padding-left:13px;}
+#infoBox {
+	width:710px; height:100%; padding:20px 30px;
+	}
+/* Style for Usual tabs */
+.usual {
+  color:#111;
+  padding:0px 20px;
+  width:730px;
+  margin:8px auto;
+}
+.usual ul{margin:0; padding:0;}
+.usual li { list-style:none; float:left; }
+.usual ul a {
+  display:block;
+  padding:6px 10px;
+  text-decoration:none!important;
+  font:10px Tahoma, Verdana;
+  margin:1px;
+  margin-left:0;
+  color:#FFF;
+  background: #434343;
+}
+.usual ul a:hover {
+  color:#FFF;
+  background: #FF0000;
+  }
+.usual ul a.selected {
+  margin-bottom:0;
+  color:#000;
+  background: #E8E8E8;
+  /*border-bottom:1px solid #E8E8E8;*/
+  cursor:default;
+  border-left-color: #cccccc;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #cccccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #cccccc;
+  border-top-style: solid;
+  border-top-width: 1px;
+  }
+.usual div {
+  padding:10px 10px 8px 10px;
+  *padding-top:3px;
+  clear:left;
+  background: #ffffff;
+  border-bottom-color: #cccccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #cccccc;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #cccccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #cccccc;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+ /*  padding-bottom: 1em;
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-top: 1em;*/
+}
+.usual div a { color:#000; font-weight:bold; }
+
+/* ------ spec table -------- */
+.td_specs_label {
+	font-weight:bold; width:200px;
+	}
+.td_specs_header {
+	font-size:16px; font-weight:bold; color:#990000;
+	}
+
+/* ---- bottom product icons ---*/
+#productIcons {
+	width:710px; margin:0px 30px; height:100%;
+	}
+.patent {
+	width:155px; height:67px; background: url(../new/images/patent.gif) no-repeat; float:left; margin:0; padding:24px 0 0 73px; font-size:12px; color:#606060;
+	}
+	
+/* index page */
+#mainWrapper {
+	margin:0 auto; width:760px; height:100%;
+	}
+
+/* Product
+-------------------------*/
+#productOptions a{
+	color:#FFFF66;
+}
+#productOptions a:hover{
+	color:#FFFF99;
+}
+
+/* Footer 
+-------------------------*/
+#footer {
+	/*background: #000000 url(../images/template/bkgd-footer.gif) no-repeat;*/
+	height: 73px;
+	text-align: center;
+	clear: both;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+#footer p {
+	color: #666666;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	top: 1px;
+	margin-bottom: 10px;
+}
+#footer p a {
+	color: #333333;
+}
+
+/* all products menu */
+#allproducts {
+	width:100%; height:100%; margin:0 auto; padding:0;
+	}
+	
+#productMenu{
+	width:278px; height:auto; float:left; background:#f3f3f3; border:1px #b2b2b2 solid; margin:0; padding:0;
+	}
+	
+#productOptions{
+	width:100%; height:auto; border:1px #b2b2b2 solid; background: #333333; float:left; padding:0; padding:20px;
+	}
+/* Style for Products tabs */
+#productMenuCategories{
+	width:220px; margin:0 0 0 20px;
+	}
+#productList {
+	width:720px; overflow:hidden; height:100%;
+	}
+
+.usual_2 {
+  color:#111;
+  padding:0px 10px;
+  width:230px;
+  overflow:hidden;
+  margin:8px 0;
+}
+.usual_2 li{
+	line-height:20px; list-style:none;
+	}
+.usual_2 ul a {
+  padding:0px 10px;
+  text-decoration:none!important;
+  margin:1px;
+  margin-left:0;
+  color: #990000;
+}
+.usual_2 ul a:hover {
+  color: #CC0000;
+  border-left:#FF0000 solid medium;
+  background: #f3f3f3;
+  }
+.usual_2 ul a.selected {
+  margin-bottom:0;
+  font-weight:bold;
+  border-left: #000000 solid medium;
+  background: #f3f3f3;
+  cursor:default;
+  }
+.usual_2 div {
+  padding:30px 30px 30px 30px;
+  padding-top:3px;
+  clear:left;
+}
+.usual_2 div a { color:#000; font-weight:bold; }
+
+#productOptions{
+	color:#FFFFFF;
+	}
+#productOptions ul li a{
+	color:#FFFFFF;
+	}
+/* product options table
+-------------------------*/
+#productOptions table a{
+	color:#FFFF66; text-decoration:none;
+	}
+#productOptions table a:hover{
+	color: #FFFFFF;
+	}
+
+/* ------ Product tab boxes ---- */
+#downloads, #description, #specs, #requiredParts, #recommended, #reviews, #emailafriend { min-height:200px; height:auto !important; height:200px;}
+
+#description {text-indent: .5cm;}
+
+/* ------ Home Boxes boxes ---- */
+#homebox {width:365px; height:300px; margin:10px 20px 10px 0; padding:0; border:#CCCCCC 1px solid; float:left; overflow:hidden;}
+#homebox_content{width:350px; height:240px; padding:15px 10px; text-align:left; position:relative; overflow:hidden;}
+
+.homebox_image {width:120px; height:70px; margin:0; padding:0 10px 15px 0; text-align:left; overflow:hidden; float:left;}
+.homebox_image img{width:100px; height:60px; padding:10px; float:left;}
+#hbox_image img{width:100px; height:60px; padding:10px; float:left;}
+#homebox_content table{width:280px;}
+
+
+#homebox_image {width:220px; height:170px; margin:0; padding:0 10px 15px 0; text-align:left; overflow:hidden;}
+#homebox_image img{width:200px; height:150px; padding:10px;}
+#home_headliner {width:700px; height:20px; margin-bottom:0; padding:0 0px;}
+#homebox_title {width:100%; height:20px; float:left;}
+#homebox_date {width:80px; height:20px; float:right; margin:0; padding:0 0 0 5px; color:#999999; font-weight:bold; font-size:9px; text-align:right;}
+
+#homebox h4 {margin: 0px; background: #999999 url(../images/template/bkgd-red.gif) repeat-x; font-size: 11px; color: #FFFFFF; padding-left: 10px; height: 15px; padding-top: 5px; padding-bottom: 5px;}
+#homebox h2 {margin: 0px; font-size: 13px; color: #990000; padding-left:5px 0 5px 10px; height: 15px;}
+
+/* ------ Downloads Div ---- */
+
+#downloads ul {margin:10px 30px; padding:0;}
+#downloads h2 {font-size:16px; font-weight:bold; color:#990000; margin:0; padding:0;}
+#downloads ul li a {padding:0 0 0 30px; min-height:20px; display: block; background:url(../images/pdficon_small.gif) no-repeat; background-position:top left; color:#000000;}
+#downloads ul li a:hover {color: #666666;}
+#dnLinks {width:200px; float:left;border:none;}
+#dnAcrobat {width:120px; height:40px; float:right; margin:20px 15px; padding:0; border:none;}
+
+/* ----- email form -----*/
+.emailfriend {width:105px; line-height:20px; background:url("../images/fwdemail.gif") no-repeat; background-position:left bottom; padding-left:25px; display:block;}
+.emaillabel {width:180px; line-height:25px; text-align: right; font-weight:bold; vertical-align:text-top;}
+#emailafriend input.text,textarea { width:300px; color:#333; padding:3px;margin:1px 0;border:1px solid #ccc; }
+.emailimput {color:#333; padding:3px;margin:1px 0;border:1px solid #ccc; }
+#formintro {padding:0; margin:0; margin-top:5px;}
+fieldset { border:0;margin:0;padding:0; }
+
+/* ----- News Page -----*/
+#thenewsWrapper{width:720px; padding-top:10px;}
+#thenewsImg {width:268px; height:247px; padding:31px 0 0 34px; float:left; background:url(../images/news_imgFrame.jpg) no-repeat;}
+#thenewsWrapper h2 {margin:10px 0; padding-top:23px; color: #000000;}
+
+#log {width: 590px;margin-top: 10px;}
+#log_res { overflow: auto;}
+#log_res.ajax-loading {padding: 20px 0;	background: url(http://demos.mootools.net/demos/Group/spinner.gif) no-repeat center;}
+
+/* ----- Product Boxes -----*/
+#productBoxWrapper{margin:0 auto;}
+
+#CategoryNumber277, #CategoryNumber4, #CategoryNumber6, #CategoryNumber8, #CategoryNumber10, #CategoryNumber38, #CategoryNumber32, #CategoryNumber34, #CategoryNumber40, #CategoryNumber301, #CategoryNumber196, #CategoryNumber256, #CategoryNumber263, #CategoryNumber30 
+{float:left; margin:2px 2px; width:335px; height:62px; font-size:10px; padding:3px 3px 3px 58px; border:1px solid #C4D0D0;}
+
+#CategoryNumber30 {background:url(../images/testThumb.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber277 {background:url(../images/testThumb.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber4 {background:url(../images/thumbs_001.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber6 {background:url(../images/thumbs_013.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber8 {background:url(../images/thumbs_003.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber10 {background:url(../images/thumbs_009.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber38 {background:url(../images/thumbs_002.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber32 {background:url(../images/thumbs_014.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber34 {background:url(../images/testThumb.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber40 {background:url(../images/thumbs_011.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber301 {background:url(../images/thumbs_007.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber196 {background:url(../images/thumbs_012.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber256 {background:url(../images/thumbs_004.jpg) no-repeat #FFFFFF left center;}
+#CategoryNumber263 {background:url(../images/thumbs_010.jpg) no-repeat #FFFFFF left center;}
+
+.myMainCategory {padding:0; margin:0 0 3px 0; text-align:left; font-weight:bold; font-size:11px; color:#990000; height:13px; width:100%; color:#006699;}
+.myContainer {width:325px; height:auto;}
+.myContainer p {margin:0; padding:0; line-height:15px;}
+
+/*.myContainer{width:289px; height:90px; margin:0 0 0 55px; text-align:left;} */
+.mySubCategory {margin:0 6px 2px 6px; text-align:left; padding:0; font-size:9px;}
+.myContainer p a{text-decoration:none; color:#666666; border-right:1px solid #CCCCCC;}
+.myContainer p a:hover{background: #DDE8FB;}
+
+/* ----- Archive Boxes -----*/
+#NewsArchiveHead {width:783px; height:74px; background:url(../images/News_Archive.jpg) no-repeat; margin:10px 0 0 12px; padding:0;}
+
+#readmorenews {position:absolute; color:#FFFFFF; right:10px; top:4px;}
+#readmorenews a{color:#FFFF00;}
+
+/* ----- Which MSD is Right -----*/
+#whichMSDbkg {width:757px; height:172px; background:url(../images/whichMSDhead.jpg) no-repeat; border:1px solid #CCCCCC; margin:15px auto 15px auto; padding-top:109px; position:relative;}
+#whichMSDbkg img{padding:0; margin:0; border:none;}
+
+#series5 {width:150px; height:70px; border:2px solid #80BFFF; padding:10px; background:#FFFFFF; position:absolute; top:150px; left:70px;z-index:600; visibility:hidden;}
+#series5 ul{padding-left:15px; margin:5px;}
+
+#series6 {width:170px; height:200px; border:2px solid #80BFFF; padding:10px; background:#FFFFFF; position:absolute; top:150px; left:220px; z-index:600; visibility:hidden;}
+#series6 ul{padding-left:15px; margin:5px;}
+
+#seriesDIS {width:170px; height:120px; border:2px solid #80BFFF; padding:10px; background:#FFFFFF; position:absolute; top:150px; left:380px; z-index:600; visibility:hidden;}
+#seriesDIS ul{padding-left:15px; margin:5px;}
+
+#series7 {width:170px; height:100px; border:2px solid #80BFFF; padding:10px; background:#FFFFFF; position:absolute; top:150px; left:510px; z-index:600; visibility:hidden;}
+#series7 ul{padding-left:15px; margin:5px;}
+
+#series810 {width:170px; height:100px; border:2px solid #80BFFF; padding:10px; background:#FFFFFF; position:absolute; top:150px; left:670px; z-index:600; visibility:hidden;}
+#series810 ul{padding-left:15px; margin:5px;}
+
+/* -------------------- Products Page -------------- */
+#productsMainOptions {width:750px; height:210px; border:1px solid #CCCCCC; margin:10px auto; margin-bottom:20px;}
+#productMOheader {width:740px; height:20px; background: #CCCCCC; border-bottom:1px solid #CCCCCC; padding:4px 0 0 10px; font-weight:bold; margin:0;}
+#productMO {width:735px; height:175px; margin:5px auto;}
+#productMO ul{margin:0; padding:0; display: inline-table;}
+
+#productMO ul a{color: #333333;}
+
+.MainOptions_il01, .MainOptions_il02, .MainOptions_il03, .MainOptions_il04, .MainOptions_il05, .MainOptions_il06, .MainOptions_il07, .MainOptions_il08, .MainOptions_il09, .MainOptions_il10, .MainOptions_il11, .MainOptions_il12, .MainOptions_il13, .MainOptions_il14, .MainOptions_il15 
+{background: #e9e9e9; width:240px; height:30px; padding: 0 0 0 0;font-weight:bold; text-decoration:none; list-style:none; margin:2px; display:inline; float:left;}
+
+.ProductIcon {vertical-align:middle; border-width:0;}
+
+.usual5 {
+  color:#111; padding:0px 20px; width:730px; margin:8px auto;
+}
+.usual5 ul{margin:0; padding:0;}
+.usual5 li { list-style:none; float:left; }
+.usual5 ul a {
+  display:block; padding:6px 10px; text-decoration:none!important; margin:1px; margin-left:0; background: #D3D3D3;
+}
+.usual5 ul a:hover {
+  color:#FFF; background: #000000;
+  }
+.usual5 ul a.selected {
+  margin-bottom:0; color:#000; background: #E8E8E8; border-bottom:1px solid #E8E8E8; cursor:default;
+  }
+.usual5 div {
+  padding:10px 10px 8px 10px; *padding-top:3px; clear:left; background: #FFFFFF;
+}
+.usual5 div a { color:#000; font-weight:bold; }
+
+.usual5 div .myContainer {width:670px; height:60px; border:1px solid #CCCCCC; border-bottom:2px solid #666666; border-right:2px solid #999999; margin-bottom:15px; background: #FFFFFF;}
+
+.myContainer p {font-weight:bold;}
+
+.usual5 div .myContainer a { color:#000; font-weight: normal; }
+.myContainer ul{margin:0; padding:0;}
+
+.myContainer li { list-style:none; float:left; }
+.myContainer ul a {
+  display:block; padding:3px 10px; text-decoration:none!important; margin:1px; margin-left:0; color: #000000; background:none;
+}
+.myContainer ul a:hover {
+  color: #666666; background: #F0F0F0;
+  }
+.myContainer ul a.selected {
+  margin-bottom:0; color:#000; background: #E8E8E8; border-bottom:1px solid #E8E8E8; cursor:default;
+  }
+
+     /* -------------------- ApplicationGuide Page -------------- */
+#appGuide {width:815px; height:57px; background:url(../images/banners/appGuide_banner.gif) no-repeat; margin:0 0 0 0; padding:0;}  
+     /* -------------------- Search Page -------------- */
+#searchHead {width:815px; height:57px; background:url(../images/banners/Search_banner.gif) no-repeat; margin:0 0 0 0; padding:0;}
+   /* -------------------- News Page -------------- */
+#newsHead {width:815px; height:57px; background:url(../images/banners/News_banner.gif) no-repeat; margin:0 0 0 0; padding:0;}
+	
+   /* -------------------- News Page -------------- */
+#zipHead {width:815px; height:57px; background:url(../images/banners/DealerLocator_banner.gif) no-repeat; margin:0 0 0 0; padding:0;} 
+
+  /* -------------------- Troubleshooting Page -------------- */
+#troublehead {width:815px; height:57px; background:url(../images/banners/troubleshooting15.gif) no-repeat; margin:0 0 0 0; padding:0;}
+#troubleform {width:800px; height:100%; border:1px solid #CCCCCC; border-right:1px solid #999999; border-bottom:1px solid #666666; margin:10px auto; padding:10;}
+#troubleformHead {width:773px; height:20px; background: #EFEFEF; border-bottom:1px solid #999999; padding:4px 0 0 10px; font-weight:bold; margin:0; color:#FF0000}
+
+  /* -------------------- Media Page -------------- */
+#mediahead {width:815px; height:57px; background:url(../images/banners/media_banner.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+  /* -------------------- Download Page -------------- */
+#downloadhead {width:815px; height:57px; background:url(../images/banners/instructionDownload.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+/* -------------------- Obsolete Download Page -------------- */
+#obsoletedownloadhead {width:815px; height:57px; background:url(../images/banners/instructionDownload2.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+  /* -------------------- Products Page -------------- */
+
+/*.usual5 div {
+  padding:10px 10px 8px 10px; *padding-top:3px; clear:left; background: #E8E8E8;
+}*/
+
+.IndividualBox {width:650px; height:140px; position:relative; margin:10px auto; padding:0; border-bottom:1px solid #CCCCCC;}
+.IndividualBox div {clear:none; padding:0; margin:0; }
+
+.PImageBox {width:135px; height:135px; float:left; margin:0; padding:0;background:#FFFFFF;}
+.PImage {width:125px; padding:5px 5px; float:left; background-color:#FFFFFF; text-align:center;}
+
+.PInfoBox {width:460px; height:140px;float:left; padding:0; margin:0;}	
+.PHeader {float:left; width:460px; font-weight:bold; color:#990000; font-size:1.2em;}
+.PNumber { float:left; width:150px; font-size:.8em; line-height:18px;}
+.Description { float:left; width:460px; }
+.TechTips { float:left; width:350px; font-size:1em; line-height:18px;  }
+
+ /* -------------------- Contact -------------- */
+ .listLink {margin:0; padding:0; list-style:none;}
+ .listLink li {background:url(../images/li_arrowLink.png) no-repeat 0 5px; line-height:1.8em; padding-left:20px; text-decoration:none; display:block; margin:0;}
+ .imageMargin {
+margin-right: 5px;
+}
+ .imageMargin2 {
+margin-right: 10px;
+}
+  /* -------------------- Default Page -------------- */
+#rightsideBanner {width:230px; height:190px; background:url(../images/banners/ps_banner.gif) no-repeat; margin:10 0 10 0; padding:0;}
+
+.partlist {
+	margin-left:20px;
+	line-height: 22px;
+	width: 375px;
+	margin-top:15px;
+}
+
+.icons {
+	height: 13px;
+	margin-left:10px;
+	vertical-align: text-bottom;
+}
+
+.appGuideTitle {
+	font-weight: bold;
+	margin-left:20px;
+	color: #ffffff;
+}
+
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlIgnition {
+}
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlCoil  {
+}
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlDistributor {
+}
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlWireset {
+}
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlHarness {
+}
+#ctl00_ContentPlaceHolderMSD_rptContent_ctl01_hlAdapter {
+}
+
+
+
+/* Media page */
+.media ul {
+  float: left;
+  width: 30em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  
+}
+ 
+.media li {
+  float: left;
+  width: 22em;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  
+} 
+
+/*Cleaning Floats*/
+.clear:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+[if IE] zoom: 1;
+}
+     /* -------------------- Survey Page -------------- */
+#surveyPage {width:815px; height:57px; background:url(../images/msdignitionsurvey.jpg) no-repeat; margin:0 0 0 0; padding:0;} 
+
+ /* -------------------- RMA Page -------------- */
+#rmahead {width:815px; height:57px; background:url(../images/rmareturns.jpg) no-repeat; margin:0 0 0 0; padding:0;} 
+
+
+/* Application Guide */
+
+.tablediv {
+display:  table;
+width:100%;
+border-spacing:20px;/*cellspacing:poor IE support for  this*/
+
+}
+.celldiv {
+float:left;/*fix for  buggy browsers*/
+display:  block;
+width:20%;
+height:100px;
+border-bottom: 1px solid #cccccc;
+margin:auto;
+text-align:center;
+}
+.headerdiv {
+float:left;/*fix for  buggy browsers*/
+display:  table-cell;
+width:19%;
+height:20px;
+border: 1px solid #FFFFFF;
+background-color:#ff0000;
+margin:auto;
+text-align:center;
+}
+.rowdiv  {
+display:  table-row;
+width:auto;
+}
+.appGuideCategory {
+font-weight: bold;
+margin-left:20px;
+color: #000000;
+}
+
+/* Thumbnails **/
+
+.thumbnailResize2 {
+height: 125px;
+width: auto;
+}
+
+
+   /* -------------------- ApplicationGuide Santascrewed me Page -------------- */
+#santaScrewed {width:728px; height:292px; background:url(../images/ssm.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+#productRegistration {width:815px; height:57px; background:url(../images/productRegistration.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+#productRegistration2 {width:815px; height:57px; background:url(../images/productRegistration2.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+#dealerLocator {width:815px; height:57px; background:url(../images/dealerLocator.gif) no-repeat; margin:0 0 0 0; padding:0;}
+
+#newsletter {width:815px; height:57px; background:url(../images/newssign.jpg) no-repeat; margin:0 0 0 0; padding:0;}
+
+.appGuideLegend {
+font-weight: bold;
+margin-left:50px;
+color: #000000;
+}  
+.usual6 div {
+  padding:10px 10px 8px 10px; padding-top:3px; clear:left; background: #ffffff;
+}
+
+ /* -------------------- Mustang Page -------------- */
+#mustangHead {width:815px; height:57px; background:url(../images/MustangLP.jpg) no-repeat; margin:0 0 0 0; padding:0;} 
+
+/* -------------------- jobOpening -------------- */
+#jobHead {width:815px; height:57px; background:url(../images/Job.jpg) no-repeat; margin:0 0 0 0; padding:0;} 
+
+ /* -------------------- Camaro Page -------------- */
+#camaroHead {width:815px; height:57px; background:url(../images/Camaro_LP_head.jpg) no-repeat; margin:0 0 0 0; padding:0;} 
+
+/* -------------------- PowerGirdUpdate Page -------------- */
+#PowerGridUpdate {width:815px; height:57px; background:url(../images/PowerGridUpdate_head.jpg) no-repeat; margin:0 0 0 0; padding:0;}
