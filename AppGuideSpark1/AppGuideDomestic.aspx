@@ -107,6 +107,7 @@
                             </div> 
                             <div class="celldiv">
                                 <asp:Literal ID="lit6" Text='<%# getSparkImage(DataBinder.Eval(Container.DataItem, "PlugType"))%>' runat="server" />
+                                <div>Click to enlarge</div>
                             </div> 
                         </div>
                         

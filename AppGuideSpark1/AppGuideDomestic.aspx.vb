@@ -26,7 +26,7 @@ Partial Class AppGuideDomestic
 
     'Functions to get spark plug images
     Protected Function getSparkImage(ByVal SparkItem As String) As String
-        Dim imageSrc = "<img class='sparkimage' src='/images/{0}' />"
+        Dim imageSrc = "<img width='70px' class='sparkimage' src='/images/{0}' />"
         Dim sparkDigits As String
 
         sparkDigits = SparkItem.Substring(0, 2)
@@ -36,6 +36,28 @@ Partial Class AppGuideDomestic
                 Return (String.Format(imageSrc, "MSD1_plug.jpg"))
             Case "2I"
                 Return (String.Format(imageSrc, "MSD2_plug.jpg"))
+            Case "3I"
+                Return (String.Format(imageSrc, "MSD3_plug.jpg"))
+            Case "4I"
+                Return (String.Format(imageSrc, "MSD4_plug.jpg"))
+            Case "5I"
+                Return (String.Format(imageSrc, "MSD5_plug.jpg"))
+            Case "6I"
+                Return (String.Format(imageSrc, "MSD6_plug.jpg"))
+            Case "7I"
+                Return (String.Format(imageSrc, "MSD7_plug.jpg"))
+            Case "8I"
+                Return (String.Format(imageSrc, "MSD8_plug.jpg"))
+            Case "9I"
+                Return (String.Format(imageSrc, "MSD9_plug.jpg"))
+            Case "11"
+                Return (String.Format(imageSrc, "MSD11_plug.jpg"))
+            Case "13"
+                Return (String.Format(imageSrc, "MSD13_plug.jpg"))
+            Case "15"
+                Return (String.Format(imageSrc, "MSD15_plug.jpg"))
+            Case "16"
+                Return (String.Format(imageSrc, "MSD16_plug.jpg"))
         End Select
     End Function
 
