@@ -1,4 +1,4 @@
-<%@Page Debug="true" Title="Application Guide" Language="VB" MasterPageFile="~/MSDMain.master" AutoEventWireup="false" CodeFile="AppGuideDomestic.aspx.vb" Inherits="AppGuideDomestic" %>
+<%@Page Debug="true" Title="Application Guide" Language="VB" MasterPageFile="MSDMain.master" AutoEventWireup="false" CodeFile="AppGuideDomestic.aspx.vb" Inherits="AppGuideDomestic" %>
 
 <asp:Content ID="cntAppGuideContent" ContentPlaceHolderID="ContentPlaceHolderMSD" Runat="Server">
     <form id="FormMSD" runat="server">
