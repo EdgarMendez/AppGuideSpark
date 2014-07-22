@@ -128,7 +128,7 @@
 
     <asp:sqldatasource runat="server" ID="ContentDS" 
             ConnectionString="<%$ ConnectionStrings:ACC_ApplicationGuideConnectionString %>" 
-            SelectCommand="SELECT [id], [Make], [year], [model], [engsize], [notes], [plugtype], [msdpnsgl], [msdpn4pack], [pluggap] FROM [sparkplugdata] WHERE (([Make] = @Make) AND ([model] = @Model) AND ([year] = @Year) AND ([engsize] = @Engsize)) "
+            SelectCommand="SELECT [id], [Make], [year], [model], [engsize], [notes], [plugtype], [msdpnsgl], [msdpn4pack], [pluggap] FROM [sparkplugdata] WHERE (([Make] = @Make) AND ([model] = @Model) AND ([year] = @Year) AND ([engsize] = LEFT(@Engsize,7))) "
             
         ProviderName="<%$ ConnectionStrings:ACC_ApplicationGuideConnectionString.ProviderName %>" >
             <SelectParameters>
